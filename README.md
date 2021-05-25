@@ -12,7 +12,7 @@ Ehrsam, Meyer, Smith and Tuchman invented the cipher block chaining (CBC) mode o
 
 # How to use it ?
 
-You have two solutions to know it : read the README file, or just type the "-help" beacon in the program parameter, a message will be printed to explain.
+You have two solutions to know it : read the README file, or just type the "-help" beacon on program parameters, a message will be printed to explain.
 
 # Credits
 
