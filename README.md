@@ -1,4 +1,4 @@
-# Cipher
+# Cipher project
 
 This project features two different cipher algorithms implemented in C: XOR and CBC.
 
