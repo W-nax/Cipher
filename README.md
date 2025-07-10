@@ -2,7 +2,7 @@
 
 This project features two different cipher algorithms implemented in C: XOR and CBC.
 
-# Xor Cipher
+# XOR Cipher
 
 The XOR cipher is a simple type of additive cipher, based on the bitwise XOR (exclusive OR) operation. This operation is sometimes called "modulo 2 addition." Using this method, a string of text can be encrypted by applying the XOR operator to each character with a given key.\
 To decrypt the message, you simply apply the XOR operation again using the same key, effectively reversing the encryption.
