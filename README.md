@@ -1,19 +1,24 @@
 # Cipher
 
-I developed two differents cipher algorithms in C language : Xor and Cbc.
+This project features two different cipher algorithms implemented in C: XOR and CBC.
 
-# Xor 
+# Xor Cipher
 
-The simple XOR cipher is a type of additive cipher, an encryption algorithm. This operation is sometimes called modulus 2 addition (or subtraction, which is identical). With this logic, a string of text can be encrypted by applying the bitwise XOR operator to every character using a given key. To decrypt the output, merely reapplying the XOR function with the key will remove the cipher. 
+The XOR cipher is a simple type of additive cipher, based on the bitwise XOR (exclusive OR) operation. This operation is sometimes called "modulo 2 addition." Using this method, a string of text can be encrypted by applying the XOR operator to each character with a given key.
+To decrypt the message, you simply apply the XOR operation again using the same key, effectively reversing the encryption.
 
-# Cbc
+# CBC (Cipher Block Chaining)
 
-Ehrsam, Meyer, Smith and Tuchman invented the cipher block chaining (CBC) mode of operation in 1976. In CBC mode, each block of plaintext is XORed with the previous ciphertext block before being encrypted. This way, each ciphertext block depends on all plaintext blocks processed up to that point. To make each message unique, an initialization vector must be used in the first block.
+Cipher Block Chaining (CBC) mode was introduced in 1976 by Ehrsam, Meyer, Smith, and Tuchman. In CBC mode, each plaintext block is XORed with the previous ciphertext block before being encrypted. This chaining mechanism ensures that each ciphertext block depends on all previous plaintext blocks, improving security.
+An initialization vector (IV) is required for the first block to ensure uniqueness across messages.
 
 # How to use it?
 
-You have two solutions to know it : read the README file, or just type the "dh_crypt -h" beacon on program parameters, a message will be printed to explain.
+You can find usage instructions in the README file, or by running the following command:
+`./dh_crypt -h`
+This will print a help message explaining available options and parameters.
 
 # Credits
 
-Thank you to considered my work and just have fun with it! :)
+Thank you for checking out my project!
+Feel free to use it, explore it, and have fun experimenting with encryption! 😊
